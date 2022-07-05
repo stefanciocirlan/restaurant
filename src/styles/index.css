@@ -217,11 +217,8 @@
   z-index: -1;
 }
 
-
-
 .right::after {
   right: 90%;
- 
 }
 
 .paragraph-img,
@@ -375,6 +372,63 @@
   width: 50%;
 }
 
+.reviews-title {
+  font-size: 84px;
+  font-family: "Amatic SC", cursive;
+  letter-spacing: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.review-section {
+  padding-bottom: 0em;
+}
+
+.reviews-group {
+  position: relative;
+ 
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translateX(-50%);
+  width: 1000px;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.review-item {
+  
+  width: 700px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.review-item-title {
+  padding: 4px;
+  font-size: 32px;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 4px;
+}
+.review-description
+{
+  font-family: 'san-serif';
+  letter-spacing: 2px;
+  padding: 24px 48px;
+  line-height: 1.6;
+}
+
+.review-item:nth-child(2) {
+  display: none;
+}
+
+.review-item:nth-child(3) {
+  display: none;
+}
 @keyframes showbottom {
   0% {
     width: 1%;
