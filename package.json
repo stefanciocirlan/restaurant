@@ -1,0 +1,23 @@
+{
+  "name": "reastaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanciocirlan/restaurant.git"
+  },
+  "author": "Stefan Ciocirlan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanciocirlan/restaurant/issues"
+  },
+  "homepage": "https://github.com/stefanciocirlan/restaurant#readme",
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
+}
